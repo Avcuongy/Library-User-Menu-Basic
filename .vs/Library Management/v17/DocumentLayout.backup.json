@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Library Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\c#\\library management\\menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|D:\\C#\\Library Management\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Library Management\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\C#\\Library Management\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:10:00.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuManagement.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Library Management\\MenuManagement.cs",
+              "RelativeDocumentMoniker": "MenuManagement.cs",
+              "ToolTip": "D:\\C#\\Library Management\\MenuManagement.cs [Design]",
+              "RelativeToolTip": "MenuManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:14:17.424Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\C#\\Library Management\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:10:03.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuManagement.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\MenuManagement.cs",
+              "RelativeDocumentMoniker": "MenuManagement.cs",
+              "ToolTip": "D:\\C#\\Library Management\\MenuManagement.cs",
+              "RelativeToolTip": "MenuManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:53:49.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\Library.cs",
+              "RelativeDocumentMoniker": "Library.cs",
+              "ToolTip": "D:\\C#\\Library Management\\Library.cs",
+              "RelativeToolTip": "Library.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:58:41.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "D:\\C#\\Library Management\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:09:26.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "D:\\C#\\Library Management\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:35:18.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\Library Management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:10:13.424Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

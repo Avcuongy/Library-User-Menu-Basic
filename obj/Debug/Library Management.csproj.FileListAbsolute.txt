@@ -1,0 +1,11 @@
+D:\C#\Library Management\bin\Debug\Library Management.exe.config
+D:\C#\Library Management\bin\Debug\Library Management.exe
+D:\C#\Library Management\bin\Debug\Library Management.pdb
+D:\C#\Library Management\obj\Debug\Library Management.csproj.AssemblyReference.cache
+D:\C#\Library Management\obj\Debug\Library_Management.Properties.Resources.resources
+D:\C#\Library Management\obj\Debug\Library Management.csproj.GenerateResource.cache
+D:\C#\Library Management\obj\Debug\Library Management.csproj.CoreCompileInputs.cache
+D:\C#\Library Management\obj\Debug\Library Management.exe
+D:\C#\Library Management\obj\Debug\Library Management.pdb
+D:\C#\Library Management\obj\Debug\Library_Management.Menu.resources
+D:\C#\Library Management\obj\Debug\Library_Management.MenuManagement.resources
