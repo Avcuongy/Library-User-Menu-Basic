@@ -54,6 +54,18 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBorrow.Designer.cs">
+      <DependentUpon>MenuBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuListBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuListBook.Designer.cs">
+      <DependentUpon>MenuListBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +77,12 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuBorrow.resx">
+      <DependentUpon>MenuBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuListBook.resx">
+      <DependentUpon>MenuListBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuManagement.resx">
       <DependentUpon>MenuManagement.cs</DependentUpon>

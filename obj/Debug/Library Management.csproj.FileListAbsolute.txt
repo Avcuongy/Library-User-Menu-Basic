@@ -9,3 +9,5 @@ D:\C#\Library Management\obj\Debug\Library Management.exe
 D:\C#\Library Management\obj\Debug\Library Management.pdb
 D:\C#\Library Management\obj\Debug\Library_Management.Menu.resources
 D:\C#\Library Management\obj\Debug\Library_Management.MenuManagement.resources
+D:\C#\Library Management\obj\Debug\Library_Management.MenuListBook.resources
+D:\C#\Library Management\obj\Debug\Library_Management.MenuBorrow.resources

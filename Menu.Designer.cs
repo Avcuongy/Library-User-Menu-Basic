@@ -149,7 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(1262, 683);
+            this.ClientSize = new System.Drawing.Size(1262, 653);
             this.Controls.Add(this.PicMenu);
             this.Controls.Add(this.Login);
             this.Controls.Add(this.label);

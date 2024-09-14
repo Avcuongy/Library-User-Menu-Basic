@@ -30,35 +30,6 @@ public class Library
                 result.Add(b);
         return result;
     }
-    public void BorrowBookById(string idUser, string id, byte amount)
-    {
-        Book book = books.Find(b => b.ToString().Contains(id));
-        if (book != null)
-        {
-            if (book.IsAvailable(amount))
-            {
-                book.BorrowBook(amount);
-                Console.WriteLine($"{idUser} đã mượn thành công {amount} sách của mã sách \"{id}\"");
-            }
-            else
-            {
-                Console.WriteLine("Out Of Limit số sách có thể mượn");
-            }
-        }
-    }
-    public void ReturnBookById(string idUser, string id, byte amount)
-    {
-        Book book = books.Find(b => b.ToString().Contains(id));
-        if (book != null)
-        {
-            book.ReturnBook(amount);
-            Console.WriteLine($"{idUser} trả thành công {amount} sách của mã sách \"{id}\"");
-        }
-        else
-        {
-            Console.WriteLine($"{idUser} không mượn bất kì sách nào");
-        }
-    }
     public void addUser(User user)
     {
         users.Add(user);
@@ -93,23 +64,22 @@ public class Library
     public string PrintBooks()
     {
         StringBuilder builder = new StringBuilder();
-        foreach(Book book in books)
+        foreach (Book book in books)
         {
             builder.AppendLine(book.ToString());
-        }    
+        }
         return builder.ToString();
     }
     public bool CheckUserLogin(string u, string v)
     {
-        bool check = false;
         foreach (User user in users)
         {
             if (u == user.Username && v == user.IdUser)
             {
-                check = true;
+                return true;
                 break;
-            }    
+            }
         }
-        return check;
+        return false;
     }
 }

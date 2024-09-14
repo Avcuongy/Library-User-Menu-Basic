@@ -20,8 +20,16 @@ namespace Library_Management
         }
         public void PrintBooks_Click(object sender, EventArgs e)
         {
-            string booksList = _library.PrintBooks();
-            MessageBox.Show(booksList);
+            this.Hide();
+            MenuListBook menuListBook = new MenuListBook(_library);
+            menuListBook.Show();
+        }
+
+        private void Borrow_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuBorrow menuBorrow = new MenuBorrow(_library);
+            menuBorrow.Show();
         }
     }
 }

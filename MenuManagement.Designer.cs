@@ -73,6 +73,7 @@
             this.Borrow.Text = "   1. Mượn Sách";
             this.Borrow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Borrow.UseVisualStyleBackColor = true;
+            this.Borrow.Click += new System.EventHandler(this.Borrow_Click);
             // 
             // Return
             // 

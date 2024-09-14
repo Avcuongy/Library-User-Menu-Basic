@@ -15,45 +15,54 @@ public class Book : ICloneable
     private int numofpages;
     private uint price;
     private byte quantity;
+    public string Id { get => id; set => id = value; }
+    public string Title { get => title; set => title = value; }
+    public string Authorname { get => authorname; set => authorname = value; }
+    public DateTime Publisheddate { get => publisheddate; set => publisheddate = value; }
+    public string Publisher { get => publisher; set => publisher = value; }
+    public int Numofpages { get => numofpages; set => numofpages = value; }
+    public uint Price { get => price; set => price = value; }
+    public byte Quantity { get => quantity; set => quantity = value; }
+
     public Book(string id, string title, string authorname, DateTime publisheddate, string publisher, int numofpages, uint price, byte quantity)
     {
-        this.id = id;
-        this.title = title;
-        this.authorname = authorname;
-        this.publisheddate = publisheddate;
-        this.publisher = publisher;
-        this.numofpages = numofpages;
-        this.price = price;
-        this.quantity = quantity;
+        this.Id = id;
+        this.Title = title;
+        this.Authorname = authorname;
+        this.Publisheddate = publisheddate;
+        this.Publisher = publisher;
+        this.Numofpages = numofpages;
+        this.Price = price;
+        this.Quantity = quantity;
     }
     public object Clone()
     {
-        return new Book(id, title, authorname, publisheddate,
-            publisher, numofpages, price, quantity);
+        return new Book(Id, Title, Authorname, Publisheddate,
+            Publisher, Numofpages, Price, Quantity);
     }
     public bool find(string keyword)
     {
-        return title.IndexOf(keyword) >= 0 || authorname.IndexOf(keyword) >= 0 || id.IndexOf(keyword) >= 0;
+        return Title.IndexOf(keyword) >= 0 || Authorname.IndexOf(keyword) >= 0 || Id.IndexOf(keyword) >= 0;
     }
     public void update(string title, string authorname, DateTime publisheddate, string publisher, int numofpages, uint price, byte quantity)
     {
-        this.title = title;
-        this.authorname = authorname;
-        this.publisheddate = publisheddate;
-        this.publisher = publisher;
-        this.numofpages = numofpages;
-        this.price = price;
-        this.quantity = quantity;
+        this.Title = title;
+        this.Authorname = authorname;
+        this.Publisheddate = publisheddate;
+        this.Publisher = publisher;
+        this.Numofpages = numofpages;
+        this.Price = price;
+        this.Quantity = quantity;
     }
     public override string ToString()
     {
-        return "Book(" + id + "," + title + "," + authorname + "," + publisheddate + "," + publisher + "," + numofpages + "," + price + "," + quantity + ")";
+        return "Book(" + Id + "," + Title + "," + Authorname + "," + Publisheddate + "," + Publisher + "," + Numofpages + "," + Price + "," + Quantity + ")";
     }
     public void BorrowBook(byte amount)
     {
-        if (amount <= quantity)
+        if (amount <= Quantity)
         {
-            quantity -= amount;
+            Quantity -= amount;
         }
         else
         {
@@ -62,10 +71,10 @@ public class Book : ICloneable
     }
     public void ReturnBook(byte amount)
     {
-        quantity += amount;
+        Quantity += amount;
     }
     public bool IsAvailable(byte amount)
     {
-        return quantity >= amount;
+        return Quantity >= amount;
     }
 }
