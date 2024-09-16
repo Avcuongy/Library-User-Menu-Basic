@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\c#\\library management\\menuborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menuborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\c#\\library management\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Library.cs",
-              "DocumentMoniker": "D:\\C#\\Library Management\\Library.cs",
-              "RelativeDocumentMoniker": "Library.cs",
-              "ToolTip": "D:\\C#\\Library Management\\Library.cs",
-              "RelativeToolTip": "Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MenuBorrow.cs",
+              "DocumentMoniker": "D:\\C#\\Library Management\\MenuBorrow.cs",
+              "RelativeDocumentMoniker": "MenuBorrow.cs",
+              "ToolTip": "D:\\C#\\Library Management\\MenuBorrow.cs",
+              "RelativeToolTip": "MenuBorrow.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T16:22:02.256Z",
+              "WhenOpened": "2024-09-16T06:23:01.636Z",
               "EditorCaption": ""
             },
             {
@@ -54,21 +50,8 @@
               "ToolTip": "D:\\C#\\Library Management\\MenuBorrow.cs [Design]",
               "RelativeToolTip": "MenuBorrow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T16:16:53.661Z",
+              "WhenOpened": "2024-09-16T06:22:59.666Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuBorrow.cs",
-              "DocumentMoniker": "D:\\C#\\Library Management\\MenuBorrow.cs",
-              "RelativeDocumentMoniker": "MenuBorrow.cs",
-              "ToolTip": "D:\\C#\\Library Management\\MenuBorrow.cs",
-              "RelativeToolTip": "MenuBorrow.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T16:20:02.368Z",
-              "EditorCaption": ""
             }
           ]
         }

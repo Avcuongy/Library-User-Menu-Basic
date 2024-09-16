@@ -59,11 +59,16 @@ namespace Library_Management
             ShowResultFind.AutoResizeColumns();
             ShowResultFind.AutoResizeRows();
         }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             byte count = (byte) int.Parse(CountBorrow.Text);   
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuManagement menuManagement = new MenuManagement(_Library);
+            this.Hide();
+            menuManagement.Show();
         }
     }
 }

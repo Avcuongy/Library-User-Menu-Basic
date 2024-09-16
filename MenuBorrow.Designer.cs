@@ -34,7 +34,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.CountBorrow = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ConfirmBorrow = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ShowResultFind)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,12 +76,13 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
-            this.button1.Location = new System.Drawing.Point(664, 433);
+            this.button1.Location = new System.Drawing.Point(655, 433);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(195, 52);
             this.button1.TabIndex = 3;
             this.button1.Text = "Back To Menu";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -97,23 +98,23 @@
             // CountBorrow
             // 
             this.CountBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CountBorrow.Location = new System.Drawing.Point(432, 302);
+            this.CountBorrow.Location = new System.Drawing.Point(448, 302);
             this.CountBorrow.Name = "CountBorrow";
             this.CountBorrow.Size = new System.Drawing.Size(92, 55);
             this.CountBorrow.TabIndex = 5;
             this.CountBorrow.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button2
+            // ConfirmBorrow
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
-            this.button2.Location = new System.Drawing.Point(403, 433);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(195, 52);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Xác Nhận Mượn";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ConfirmBorrow.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ConfirmBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfirmBorrow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
+            this.ConfirmBorrow.Location = new System.Drawing.Point(404, 433);
+            this.ConfirmBorrow.Name = "ConfirmBorrow";
+            this.ConfirmBorrow.Size = new System.Drawing.Size(195, 52);
+            this.ConfirmBorrow.TabIndex = 6;
+            this.ConfirmBorrow.Text = "Xác Nhận Mượn";
+            this.ConfirmBorrow.UseVisualStyleBackColor = false;
             // 
             // MenuBorrow
             // 
@@ -121,7 +122,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1262, 653);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ConfirmBorrow);
             this.Controls.Add(this.CountBorrow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
@@ -144,6 +145,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox CountBorrow;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ConfirmBorrow;
     }
 }
