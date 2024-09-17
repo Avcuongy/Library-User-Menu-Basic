@@ -64,10 +64,6 @@ public class Book : ICloneable
         {
             Quantity -= amount;
         }
-        else
-        {
-            Console.WriteLine("Out Of Limit");
-        }
     }
     public void ReturnBook(byte amount)
     {

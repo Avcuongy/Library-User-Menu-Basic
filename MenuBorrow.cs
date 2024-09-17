@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,7 +50,7 @@ namespace Library_Management
             {
                 if (book.Id == BoxID.SelectedItem.ToString())
                 {
-                    dt.Rows.Add(book.Id,book.Title,book.Authorname,book.Numofpages,book.Price,book.Quantity);
+                    dt.Rows.Add(book.Id, book.Title, book.Authorname, book.Numofpages, book.Price, book.Quantity);
                 }
             }
 
@@ -59,16 +60,25 @@ namespace Library_Management
             ShowResultFind.AutoResizeColumns();
             ShowResultFind.AutoResizeRows();
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            byte count = (byte) int.Parse(CountBorrow.Text);   
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             MenuManagement menuManagement = new MenuManagement(_Library);
             this.Hide();
             menuManagement.Show();
+        }
+        private void ConfirmBorrow_Click(object sender, EventArgs e)
+        {
+            string counBook = CountBorrow.Text;
+            byte countBook = byte.Parse(counBook);
+            string chooseItem = BoxID.SelectedItem.ToString();
+            DialogResult dialogResult = MessageBox.Show("","Are you sure ?", MessageBoxButtons.OKCancel);
+            if (dialogResult == DialogResult.OK)
+            {
+                _Library.BorrowBook(chooseItem, countBook);
+                this.Hide();
+                MenuManagement menuManagement = new MenuManagement(_Library);
+                menuManagement.Show();
+            }
         }
     }
 }

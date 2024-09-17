@@ -3,6 +3,8 @@ using Library_Management;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -81,5 +83,22 @@ public class Library
             }
         }
         return false;
+    }
+    public void BorrowBook(string id, byte count)
+    {
+        foreach (Book book in books)
+        {
+            if (book.Id == id)
+            {
+                book.BorrowBook(count);
+            }
+        }
+    }
+    public void ReturnBook(string id, byte count)
+    {
+        foreach (Book book in books)
+        {
+            if (book.Id == id) { book.ReturnBook(count); }
+        }
     }
 }

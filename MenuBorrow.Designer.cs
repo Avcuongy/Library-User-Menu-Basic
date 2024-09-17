@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BoxID = new System.Windows.Forms.ComboBox();
             this.ShowResultFind = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BackToMenu = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.CountBorrow = new System.Windows.Forms.TextBox();
             this.ConfirmBorrow = new System.Windows.Forms.Button();
@@ -71,18 +71,18 @@
             this.ShowResultFind.Size = new System.Drawing.Size(1184, 83);
             this.ShowResultFind.TabIndex = 2;
             // 
-            // button1
+            // BackToMenu
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
-            this.button1.Location = new System.Drawing.Point(655, 433);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(195, 52);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Back To Menu";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BackToMenu.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackToMenu.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackToMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
+            this.BackToMenu.Location = new System.Drawing.Point(655, 433);
+            this.BackToMenu.Name = "BackToMenu";
+            this.BackToMenu.Size = new System.Drawing.Size(195, 52);
+            this.BackToMenu.TabIndex = 3;
+            this.BackToMenu.Text = "Back To Menu";
+            this.BackToMenu.UseVisualStyleBackColor = false;
+            this.BackToMenu.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -100,9 +100,8 @@
             this.CountBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CountBorrow.Location = new System.Drawing.Point(448, 302);
             this.CountBorrow.Name = "CountBorrow";
-            this.CountBorrow.Size = new System.Drawing.Size(92, 55);
+            this.CountBorrow.Size = new System.Drawing.Size(78, 55);
             this.CountBorrow.TabIndex = 5;
-            this.CountBorrow.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ConfirmBorrow
             // 
@@ -115,6 +114,7 @@
             this.ConfirmBorrow.TabIndex = 6;
             this.ConfirmBorrow.Text = "Xác Nhận Mượn";
             this.ConfirmBorrow.UseVisualStyleBackColor = false;
+            this.ConfirmBorrow.Click += new System.EventHandler(this.ConfirmBorrow_Click);
             // 
             // MenuBorrow
             // 
@@ -125,7 +125,7 @@
             this.Controls.Add(this.ConfirmBorrow);
             this.Controls.Add(this.CountBorrow);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BackToMenu);
             this.Controls.Add(this.ShowResultFind);
             this.Controls.Add(this.BoxID);
             this.Controls.Add(this.label1);
@@ -142,7 +142,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox BoxID;
         private System.Windows.Forms.DataGridView ShowResultFind;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BackToMenu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox CountBorrow;
         private System.Windows.Forms.Button ConfirmBorrow;
