@@ -11,3 +11,43 @@ D:\C#\Library Management\obj\Debug\Library_Management.Menu.resources
 D:\C#\Library Management\obj\Debug\Library_Management.MenuManagement.resources
 D:\C#\Library Management\obj\Debug\Library_Management.MenuListBook.resources
 D:\C#\Library Management\obj\Debug\Library_Management.MenuBorrow.resources
+D:\C#\Library-User-Menu-Basic\bin\Debug\Library Management.exe.config
+D:\C#\Library-User-Menu-Basic\bin\Debug\Library Management.exe
+D:\C#\Library-User-Menu-Basic\bin\Debug\Library Management.pdb
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.AssemblyReference.cache
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.Menu.resources
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuBorrow.resources
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuListBook.resources
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuManagement.resources
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.Properties.Resources.resources
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.GenerateResource.cache
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.CoreCompileInputs.cache
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library Management.exe
+D:\C#\Library-User-Menu-Basic\obj\Debug\Library Management.pdb
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\Library Management.exe
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\Library Management.pdb
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Text.Json.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Memory.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.ValueTuple.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Text.Encodings.Web.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Numerics.Vectors.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Buffers.dll
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.AssemblyReference.cache
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.Menu.resources
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuBorrow.resources
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuListBook.resources
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.MenuManagement.resources
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.Properties.Resources.resources
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.GenerateResource.cache
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library Management.csproj.CoreCompileInputs.cache
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library .0D70EAA2.Up2Date
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library Management.exe
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library Management.pdb
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Buffers.xml
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Memory.xml
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Numerics.Vectors.xml
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\Library Management.exe.config

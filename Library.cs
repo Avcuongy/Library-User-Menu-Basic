@@ -8,8 +8,14 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text.Json;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 
-public class Library
+
+[Serializable]
+public class Library : ISerializable
 {
     private List<Book> books = new List<Book>();
     private List<User> users = new List<User>();
@@ -17,8 +23,7 @@ public class Library
     public List<User> Users { get => users; set => users = value; }
     public Library()
     {
-        this.Books = books;
-        this.Users = users;
+        
     }
     public void addBook(Book book)
     {
@@ -79,7 +84,6 @@ public class Library
             if (u == user.Username && v == user.IdUser)
             {
                 return true;
-                break;
             }
         }
         return false;
@@ -100,5 +104,15 @@ public class Library
         {
             if (book.Id == id) { book.ReturnBook(count); }
         }
+    }
+    public void GetObjectData(SerializationInfo info, StreamingContext context)
+    {
+        info.AddValue("Books", Books);
+        info.AddValue("Users", Users);
+    }
+    public Library(SerializationInfo info, StreamingContext context)
+    {
+        Books = (List<Book>)info.GetValue("Books", typeof(List<Book>));
+        Users = (List<User>)info.GetValue("Users", typeof(List<User>));
     }
 }

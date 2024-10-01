@@ -4,8 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text.Json;
+using System.Runtime.Serialization;
 
-public class Book : ICloneable
+[Serializable]
+public class Book : ISerializable
 {
     private string id;
     private string title;
@@ -24,22 +28,6 @@ public class Book : ICloneable
     public uint Price { get => price; set => price = value; }
     public byte Quantity { get => quantity; set => quantity = value; }
 
-    public Book(string id, string title, string authorname, DateTime publisheddate, string publisher, int numofpages, uint price, byte quantity)
-    {
-        this.Id = id;
-        this.Title = title;
-        this.Authorname = authorname;
-        this.Publisheddate = publisheddate;
-        this.Publisher = publisher;
-        this.Numofpages = numofpages;
-        this.Price = price;
-        this.Quantity = quantity;
-    }
-    public object Clone()
-    {
-        return new Book(Id, Title, Authorname, Publisheddate,
-            Publisher, Numofpages, Price, Quantity);
-    }
     public bool find(string keyword)
     {
         return Title.IndexOf(keyword) >= 0 || Authorname.IndexOf(keyword) >= 0 || Id.IndexOf(keyword) >= 0;
@@ -72,5 +60,31 @@ public class Book : ICloneable
     public bool IsAvailable(byte amount)
     {
         return Quantity >= amount;
+    }
+    public void GetObjectData(SerializationInfo info, StreamingContext context)
+    {
+        info.AddValue("Id", Id);
+        info.AddValue("Title", Title);
+        info.AddValue("Authorname", Authorname);
+        info.AddValue("Publisheddate", Publisheddate);
+        info.AddValue("Publisher", Publisher);
+        info.AddValue("Numofpages", Numofpages);
+        info.AddValue("Price", Price);
+        info.AddValue("Quantity", Quantity);
+    }
+    public Book(SerializationInfo info, StreamingContext context)
+    {
+        Id = info.GetString("Id");
+        Title = info.GetString("Title");
+        Authorname = info.GetString("Authorname");
+        Publisheddate = info.GetDateTime(nameof(Publisheddate)); 
+        Publisher = info.GetString(nameof(Publisher)); 
+        Numofpages = info.GetInt32(nameof(Numofpages)); 
+        Price = info.GetUInt32(nameof(Price)); 
+        Quantity = info.GetByte(nameof(Quantity));
+    }
+    public Book() 
+    { 
+    
     }
 }

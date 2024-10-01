@@ -48,7 +48,7 @@
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Times New Roman", 40.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(102)))), ((int)(((byte)(105)))));
-            this.label.Location = new System.Drawing.Point(355, 39);
+            this.label.Location = new System.Drawing.Point(392, 54);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(597, 76);
             this.label.TabIndex = 0;
@@ -137,7 +137,7 @@
             // 
             this.PicMenu.BackColor = System.Drawing.Color.Transparent;
             this.PicMenu.Image = ((System.Drawing.Image)(resources.GetObject("PicMenu.Image")));
-            this.PicMenu.Location = new System.Drawing.Point(709, 159);
+            this.PicMenu.Location = new System.Drawing.Point(708, 159);
             this.PicMenu.Name = "PicMenu";
             this.PicMenu.Size = new System.Drawing.Size(521, 410);
             this.PicMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,8 +155,11 @@
             this.Controls.Add(this.label);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
-            this.Text = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Menu Login";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

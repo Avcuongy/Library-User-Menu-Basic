@@ -1,0 +1,13 @@
+D:\C#\Library-User-Menu-Basic\bin\Release\Library Management.exe.config
+D:\C#\Library-User-Menu-Basic\bin\Release\Library Management.exe
+D:\C#\Library-User-Menu-Basic\bin\Release\Library Management.pdb
+D:\C#\Library-User-Menu-Basic\obj\Release\Library Management.csproj.AssemblyReference.cache
+D:\C#\Library-User-Menu-Basic\obj\Release\Library_Management.Menu.resources
+D:\C#\Library-User-Menu-Basic\obj\Release\Library_Management.MenuBorrow.resources
+D:\C#\Library-User-Menu-Basic\obj\Release\Library_Management.MenuListBook.resources
+D:\C#\Library-User-Menu-Basic\obj\Release\Library_Management.MenuManagement.resources
+D:\C#\Library-User-Menu-Basic\obj\Release\Library_Management.Properties.Resources.resources
+D:\C#\Library-User-Menu-Basic\obj\Release\Library Management.csproj.GenerateResource.cache
+D:\C#\Library-User-Menu-Basic\obj\Release\Library Management.csproj.CoreCompileInputs.cache
+D:\C#\Library-User-Menu-Basic\obj\Release\Library Management.exe
+D:\C#\Library-User-Menu-Basic\obj\Release\Library Management.pdb

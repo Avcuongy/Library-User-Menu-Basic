@@ -26,6 +26,7 @@ namespace Library_Management
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ShowResultFindByCombobox();
+            ShowResultFind.CurrentCell = null;
         }
         public void ShowCombobox()
         {
@@ -46,11 +47,17 @@ namespace Library_Management
             dt.Columns.Add("Price");
             dt.Columns.Add("Quantity");
 
+            bool hasRowAdded = false;
+
             foreach (Book book in _Library.Books)
             {
                 if (book.Id == BoxID.SelectedItem.ToString())
                 {
-                    dt.Rows.Add(book.Id, book.Title, book.Authorname, book.Numofpages, book.Price, book.Quantity);
+                    if (!hasRowAdded)
+                    {
+                        dt.Rows.Add(book.Id, book.Title, book.Authorname, book.Numofpages, book.Price, book.Quantity);
+                        hasRowAdded = true;
+                    }
                 }
             }
 

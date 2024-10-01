@@ -36,5 +36,10 @@ namespace Library_Management
                 MessageBox.Show("Invalid username or password. Please try again.");
             }
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

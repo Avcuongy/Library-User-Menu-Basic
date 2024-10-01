@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuBorrow));
             this.label1 = new System.Windows.Forms.Label();
             this.BoxID = new System.Windows.Forms.ComboBox();
             this.ShowResultFind = new System.Windows.Forms.DataGridView();
@@ -62,13 +65,32 @@
             // 
             // ShowResultFind
             // 
-            this.ShowResultFind.BackgroundColor = System.Drawing.Color.White;
+            this.ShowResultFind.AllowUserToAddRows = false;
+            this.ShowResultFind.AllowUserToDeleteRows = false;
+            this.ShowResultFind.AllowUserToResizeColumns = false;
+            this.ShowResultFind.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SkyBlue;
+            this.ShowResultFind.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.ShowResultFind.BackgroundColor = System.Drawing.Color.SkyBlue;
+            this.ShowResultFind.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ShowResultFind.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.ShowResultFind.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SkyBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SkyBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ShowResultFind.DefaultCellStyle = dataGridViewCellStyle2;
             this.ShowResultFind.Location = new System.Drawing.Point(46, 137);
             this.ShowResultFind.Name = "ShowResultFind";
+            this.ShowResultFind.ReadOnly = true;
+            this.ShowResultFind.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.ShowResultFind.RowHeadersVisible = false;
             this.ShowResultFind.RowHeadersWidth = 51;
             this.ShowResultFind.RowTemplate.Height = 24;
-            this.ShowResultFind.Size = new System.Drawing.Size(1184, 83);
+            this.ShowResultFind.Size = new System.Drawing.Size(1184, 92);
             this.ShowResultFind.TabIndex = 2;
             // 
             // BackToMenu
@@ -100,7 +122,8 @@
             this.CountBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CountBorrow.Location = new System.Drawing.Point(448, 302);
             this.CountBorrow.Name = "CountBorrow";
-            this.CountBorrow.Size = new System.Drawing.Size(78, 55);
+            this.CountBorrow.ReadOnly = true;
+            this.CountBorrow.Size = new System.Drawing.Size(67, 55);
             this.CountBorrow.TabIndex = 5;
             // 
             // ConfirmBorrow
@@ -129,8 +152,10 @@
             this.Controls.Add(this.ShowResultFind);
             this.Controls.Add(this.BoxID);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuBorrow";
-            this.Text = "MenuBorrow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Menu Borow";
             ((System.ComponentModel.ISupportInitialize)(this.ShowResultFind)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
