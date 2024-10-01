@@ -3,7 +3,7 @@
     <p style="font-size: em; font-weight: normal;">
         This is a project I presented on my own.
         </p>
-    <img src="https://raw.githubusercontent.com/Avcuongy/Avcuongy/refs/heads/main/Pictures/Menu%20Library%20Basic%20User.png" alt="Description of Image" style="width: 650px; height: 360px;">
+    <img src="https://raw.githubusercontent.com/Avcuongy/Avcuongy/refs/heads/main/Pictures/Menu%20Library%20Management.png" alt="Description of Image" style="width: 650px; height: 360px;">
     </p>
 </div>
 
