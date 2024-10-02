@@ -122,7 +122,6 @@
             this.CountBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CountBorrow.Location = new System.Drawing.Point(448, 302);
             this.CountBorrow.Name = "CountBorrow";
-            this.CountBorrow.ReadOnly = true;
             this.CountBorrow.Size = new System.Drawing.Size(67, 55);
             this.CountBorrow.TabIndex = 5;
             // 
