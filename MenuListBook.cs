@@ -49,11 +49,7 @@ namespace Library_Management
                 }
             }
             // Truyền dữ liệu vào DataGridView
-            ListViewBooks.DataSource = dt;
-            
-            // Điều Chỉnh Fit Giữa Các Column And Rows
-            ListViewBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            ListViewBooks.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            ListViewBooks.DataSource = dt;  
         }
 
         private void BackToMenu_Click(object sender, EventArgs e)

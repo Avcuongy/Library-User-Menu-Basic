@@ -86,7 +86,7 @@
             this.ShowResultFind.Location = new System.Drawing.Point(46, 137);
             this.ShowResultFind.Name = "ShowResultFind";
             this.ShowResultFind.ReadOnly = true;
-            this.ShowResultFind.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.ShowResultFind.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.ShowResultFind.RowHeadersVisible = false;
             this.ShowResultFind.RowHeadersWidth = 51;
             this.ShowResultFind.RowTemplate.Height = 24;
@@ -153,7 +153,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuBorrow";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Borow";
             ((System.ComponentModel.ISupportInitialize)(this.ShowResultFind)).EndInit();
             this.ResumeLayout(false);

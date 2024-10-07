@@ -43,6 +43,8 @@
             this.ListViewBooks.AllowUserToDeleteRows = false;
             this.ListViewBooks.AllowUserToResizeColumns = false;
             this.ListViewBooks.AllowUserToResizeRows = false;
+            this.ListViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ListViewBooks.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.ListViewBooks.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.ListViewBooks.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListViewBooks.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -51,7 +53,7 @@
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Transparent;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.ListViewBooks.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.ListViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -103,9 +105,10 @@
             this.ClientSize = new System.Drawing.Size(1262, 653);
             this.Controls.Add(this.BackToMenu);
             this.Controls.Add(this.ListViewBooks);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuListBook";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu List Book";
             ((System.ComponentModel.ISupportInitialize)(this.ListViewBooks)).EndInit();
             this.ResumeLayout(false);
