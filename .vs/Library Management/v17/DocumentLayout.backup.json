@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\_dev\\c#\\library-user-menu-basic\\menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menumanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\_dev\\c#\\library-user-menu-basic\\menulistbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menulistbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\_dev\\c#\\library-user-menu-basic\\menuborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menuborrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|d:\\_dev\\c#\\library-user-menu-basic\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D2D39CB-8DD1-41AF-A0E0-52395924EB45}|Library Management.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,59 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuManagement.cs [Design]",
-              "DocumentMoniker": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuManagement.cs",
-              "RelativeDocumentMoniker": "MenuManagement.cs",
-              "ToolTip": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuManagement.cs [Design]",
-              "RelativeToolTip": "MenuManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:21:32.949Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuListBook.cs [Design]",
-              "DocumentMoniker": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuListBook.cs",
-              "RelativeDocumentMoniker": "MenuListBook.cs",
-              "ToolTip": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuListBook.cs [Design]",
-              "RelativeToolTip": "MenuListBook.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:21:32.269Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuBorrow.cs [Design]",
-              "DocumentMoniker": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuBorrow.cs",
-              "RelativeDocumentMoniker": "MenuBorrow.cs",
-              "ToolTip": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\MenuBorrow.cs [Design]",
-              "RelativeToolTip": "MenuBorrow.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:21:31.657Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "D:\\_Dev\\C#\\Library-User-Menu-Basic\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:20:38.735Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
