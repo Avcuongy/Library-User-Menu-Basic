@@ -15,7 +15,6 @@ namespace Library_Management
     public partial class MenuManagement : Form
     {
         public Library _library;
-
         public MenuManagement(Library library)
         {
             InitializeComponent();
@@ -45,6 +44,13 @@ namespace Library_Management
 
             Environment.Exit(0);
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            CheckBook checkBook = new CheckBook(_library);
+            this.Hide();
+            checkBook.Show();
         }
     }
 }

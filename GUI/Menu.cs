@@ -12,7 +12,7 @@ namespace Library_Management
 {
     public partial class Menu : Form
     {
-        public Library _library;
+        private Library _library;
         public Menu(Library library)
         {
             InitializeComponent();

@@ -61,45 +61,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="Library.cs" />
-    <Compile Include="Menu.cs">
+    <Compile Include="Logic\Book.cs" />
+    <Compile Include="GUI\CheckBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
+    <Compile Include="GUI\CheckBook.Designer.cs">
+      <DependentUpon>CheckBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Library.cs" />
+    <Compile Include="GUI\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuBorrow.cs">
+    <Compile Include="GUI\MenuBorrow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuBorrow.Designer.cs">
+    <Compile Include="GUI\MenuBorrow.Designer.cs">
       <DependentUpon>MenuBorrow.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuListBook.cs">
+    <Compile Include="GUI\MenuListBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuListBook.Designer.cs">
+    <Compile Include="GUI\MenuListBook.Designer.cs">
       <DependentUpon>MenuListBook.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuManagement.cs">
+    <Compile Include="GUI\MenuManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuManagement.Designer.cs">
+    <Compile Include="GUI\MenuManagement.Designer.cs">
       <DependentUpon>MenuManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Logic\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
-    <EmbeddedResource Include="Menu.resx">
+    <Compile Include="Logic\User.cs" />
+    <EmbeddedResource Include="GUI\CheckBook.resx">
+      <DependentUpon>CheckBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuBorrow.resx">
+    <EmbeddedResource Include="GUI\MenuBorrow.resx">
       <DependentUpon>MenuBorrow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuListBook.resx">
+    <EmbeddedResource Include="GUI\MenuListBook.resx">
       <DependentUpon>MenuListBook.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuManagement.resx">
+    <EmbeddedResource Include="GUI\MenuManagement.resx">
       <DependentUpon>MenuManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -111,8 +120,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="Documents\app.config" />
+    <None Include="Documents\packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

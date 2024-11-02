@@ -62,7 +62,7 @@
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SkyBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.ListViewBooks.DefaultCellStyle = dataGridViewCellStyle2;
             this.ListViewBooks.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
@@ -84,6 +84,7 @@
             this.ListViewBooks.RowTemplate.Height = 24;
             this.ListViewBooks.Size = new System.Drawing.Size(984, 390);
             this.ListViewBooks.TabIndex = 0;
+            this.ListViewBooks.TabStop = false;
             // 
             // BackToMenu
             // 

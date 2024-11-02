@@ -26,7 +26,6 @@ namespace Library_Management
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ShowResultFindByCombobox();
-            ShowResultFind.CurrentCell = null;
         }
         public void ShowCombobox()
         {
@@ -78,6 +77,7 @@ namespace Library_Management
             string counBook = CountBorrow.Text;
             byte countBook = byte.Parse(counBook);
             string chooseItem = BoxID.SelectedItem.ToString();
+
             DialogResult dialogResult = MessageBox.Show("","Are you sure ?", MessageBoxButtons.OKCancel);
             if (dialogResult == DialogResult.OK)
             {
@@ -86,6 +86,11 @@ namespace Library_Management
                 MenuManagement menuManagement = new MenuManagement(_Library);
                 menuManagement.Show();
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

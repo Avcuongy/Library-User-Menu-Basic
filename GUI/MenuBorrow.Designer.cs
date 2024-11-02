@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.CountBorrow = new System.Windows.Forms.TextBox();
             this.ConfirmBorrow = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ShowResultFind)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,12 +139,23 @@
             this.ConfirmBorrow.UseVisualStyleBackColor = false;
             this.ConfirmBorrow.Click += new System.EventHandler(this.ConfirmBorrow_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(432, 48);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(232, 47);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // MenuBorrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1262, 653);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ConfirmBorrow);
             this.Controls.Add(this.CountBorrow);
             this.Controls.Add(this.label2);
@@ -170,5 +182,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox CountBorrow;
         private System.Windows.Forms.Button ConfirmBorrow;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -51,3 +51,4 @@ D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Memory.xml
 D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Numerics.Vectors.xml
 D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\_Dev\C#\Library-User-Menu-Basic\bin\Debug\Library Management.exe.config
+D:\_Dev\C#\Library-User-Menu-Basic\obj\Debug\Library_Management.CheckBook.resources
