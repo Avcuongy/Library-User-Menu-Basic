@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
     <h1>Library User Menu Basic</h1>
     <p style="font-size:1.2em; font-weight:normal;">
         This is a simple project created to demonstrate a basic library management interface.
